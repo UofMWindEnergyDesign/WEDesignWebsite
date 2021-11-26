@@ -1,0 +1,220 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<style>
+.newBorder {
+  border: 1px solid #9e9e9e;
+}
+  
+}
+</style>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+
+  {% include head.html %}
+
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+    
+    {% if page.featured-img %}
+    <!-- <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}"> WORKS!!!!!-->
+    <div class="hero--small lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg">
+      
+    <!-- <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg"> -->
+    <!-- <div class="hero lazyloaded" data-bg="https://Sciencesing.github.io//nameTest/assets/img/posts/sleek_lg.jpg"> -->
+    {% else %}
+    <div class="hero--small">
+    {% endif %}
+      <div class="hero__wrap">
+        <h1 class="hero__title">{{ page.title }}</h1>
+      </div>
+    </div>
+    <main class="site__content" style="background-color: #f9f9f9">
+
+      <div class="container">
+        <div class="page-content table cats">
+                    
+          {{ content }}
+          
+          <table>
+            <thead>
+              <tr>
+                <th class="newBorder" style="text-align: left">&nbsp;</th>
+                <th class="newBorder" style="text-align: center">
+                  <span style="color:sienna">Bronze &lt;$500</span>
+                </th>
+                <th class="newBorder" style="text-align: center">
+                  <span style="color:darkgray">Silver $500+</span>
+                </th>
+                <th class="newBorder" style="text-align: center">
+                  <span style="color:goldenrod">Gold $1,000+</span>
+                </th>
+                <th class="newBorder" style="text-align: center">
+                  <span style="color:lightslategray">Platinum $3,000+</span>
+                </th>
+                <th class="newBorder" style="text-align: center">
+                  <span style="color:darkslategray">Platinum Plus $5,000+</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="newBorder" style="text-align: left; newBorder">Website Recognition</td>
+                <td class="newBorder" style="text-align: center">Small</td>
+                <td class="newBorder" style="text-align: center">Medium</td>
+                <td class="newBorder" style="text-align: center">Large</td>
+                <td class="newBorder" style="text-align: center">Large</td>
+                <td class="newBorder" style="text-align: center">X-Large</td>
+              </tr>
+              <tr>
+                <td class="newBorder" style="text-align: left">Shirt Recognition</td>
+                <td class="newBorder" style="text-align: center">Name</td>
+                <td class="newBorder" style="text-align: center">Small</td>
+                <td class="newBorder" style="text-align: center">Medium</td>
+                <td class="newBorder" style="text-align: center">Large</td>
+                <td class="newBorder" style="text-align: center">Large</td>
+              </tr>
+              <tr>
+                <td class="newBorder" style="text-align: left">Turbine Decal</td>
+                <td class="newBorder" style="text-align: center">Name</td>
+                <td class="newBorder" style="text-align: center">Small</td>
+                <td class="newBorder" style="text-align: center">Medium</td>
+                <td class="newBorder" style="text-align: center">Large</td>
+                <td class="newBorder" style="text-align: center">Large</td>
+              </tr>
+              <tr>
+                <td class="newBorder" style="text-align: left">Invitation to Design Reviews / Prototype Showcasing</td>
+                <td class="newBorder" style="text-align: center">√</td>
+                <td class="newBorder" style="text-align: center">√</td>
+                <td class="newBorder" style="text-align: center">√</td>
+                <td class="newBorder" style="text-align: center">√</td>
+                <td class="newBorder" style="text-align: center">√</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+           
+      <section class="blog">
+      
+      <!-- X-Platinum Sponsors -->
+      <!-- Adding a header bar. Hopefully this looks alright-->
+      <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
+          Platinum Plus <!--Padding is optional-->
+        </span>
+      </div>
+        <div class="container">
+            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+              {% for post in site.posts %}
+                {% if post.tags contains "sponsor" and post.tags contains "platinumplus" %}
+                  {% include sponsCard.html %}
+                {% endif %}
+              {% endfor %}
+
+              <!-- {% include pagination.html %} -->
+            </div>
+          </div>
+        
+        
+      <!-- Platinum Sponsors -->
+      <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
+          Platinum <!--Padding is optional-->
+        </span>
+      </div>
+        <div class="container">
+            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+              {% for post in site.posts %}
+                {% if post.tags contains "sponsor" and post.tags contains "platinum" %}
+                  {% include sponsCard.html %}
+                {% endif %}
+              {% endfor %}
+
+              <!-- {% include pagination.html %} -->
+            </div>
+          </div>
+        
+        
+        <!-- Gold Sponsors-->
+        <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
+          Gold <!--Padding is optional-->
+        </span>
+      </div>
+        <div class="container">
+            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+              {% for post in site.posts %}
+                {% if post.tags contains "sponsor" and post.tags contains "gold" %}
+                  {% include sponsCard.html %}
+                {% endif %}
+              {% endfor %}
+
+              <!-- {% include pagination.html %} -->
+            </div>
+          </div>
+        
+        <!-- Silver Sponsors -->
+        <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
+          Silver <!--Padding is optional-->
+        </span>
+      </div>
+        <div class="container">
+            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+              {% for post in site.posts %}
+                {% if post.tags contains "sponsor" and post.tags contains "silver" %}
+                  {% include sponsCard.html %}
+                {% endif %}
+              {% endfor %}
+
+              <!-- {% include pagination.html %} -->
+            </div>
+          </div>
+        
+        
+        <!-- Bronze/Other sponsors -->
+        <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
+          Bronze <!--Padding is optional-->
+        </span>
+        </div>
+        <div class="container">
+            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+              {% for post in site.posts %}
+                {% if post.tags contains "sponsor"%}
+                  {% unless post.tags contains "platinumplus" or post.tags contains "platinum" or post.tags contains "gold" or post.tags contains "silver" %}
+                    {% include sponsCard.html %}
+                  {% endunless %}
+                {% endif %}
+              {% endfor %}
+
+              <!-- {% include pagination.html %} -->
+            </div>
+          </div>
+        
+        
+      </section>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
