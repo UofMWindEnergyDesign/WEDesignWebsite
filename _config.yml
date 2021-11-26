@@ -7,8 +7,8 @@ description: > # Meta description of Homepage Write an awesome description for y
 logo: 'assets/img/teamlogo.jpg'
 favicon: 'assets/img/teamfaviconcircle.png'
 baseurl: "" # the subpath of your site, e.g. /blog
-# old one is: /WEDesignWebsite
-url: "http://www.windenergydesign.com/" # the base hostname & protocol for your site, e.g. http://example.com
+# old one is: ""
+url: "https://www.windenergydesign.com/" # the base hostname & protocol for your site, e.g. http://example.com
 # old one is: sciencesing.github.io
 
 # SEO PLUGIN
