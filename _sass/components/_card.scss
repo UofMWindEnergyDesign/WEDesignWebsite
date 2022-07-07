@@ -1,8 +1,8 @@
 .post-card {
   display: block;
   position: relative;
-  width: 100%; //100% is the default
-  min-height: 250px; //250px is the default
+  width: 100%;
+  min-height: 250px;
   border-radius: 4px;
   overflow: hidden;
   background-color: $bg-color;
@@ -84,7 +84,7 @@
     height: 0;
     width: 100%;
     // 16:9 = 56.25% = calc(9 / 16 * 100%)
-    padding-bottom: 56.25%; //56.25% is default
+    padding-bottom: 56.25%;
   }
 
   > * {
