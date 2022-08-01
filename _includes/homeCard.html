@@ -34,7 +34,25 @@
   }
 </style> -->
 <!-- Original class is: myCard -->
-<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+
+<style>
+.home-card{
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 0px 10px 40px 10px;
+  background-color: #fff;
+  display: block;
+  overflow: hidden;
+  border-bottom: 0;
+  transition: box-shadow 0.25s ease;
+}
+</style>
+
+<div class="home-card post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
   <!--{% if post.categories %}
     {% assign categories = post.categories %}
     <span class="post-card__label">
