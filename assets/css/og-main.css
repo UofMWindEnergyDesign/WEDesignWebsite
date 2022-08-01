@@ -12,9 +12,12 @@
  *    IE on Windows Phone and in iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -55,7 +58,8 @@ h1 {
  */
 figcaption,
 figure,
-main { /* 1 */
+main {
+  /* 1 */
   display: block;
 }
 
@@ -71,9 +75,12 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -81,8 +88,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -92,8 +101,10 @@ pre {
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
 a {
-  background-color: transparent; /* 1 */
-  -webkit-text-decoration-skip: objects; /* 2 */
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
 }
 
 /**
@@ -101,10 +112,13 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+          text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -130,8 +144,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -219,10 +235,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -230,7 +250,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -239,7 +260,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -252,7 +274,8 @@ button,
 html [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button; /* 2 */
+  -webkit-appearance: button;
+  /* 2 */
 }
 
 /**
@@ -290,12 +313,18 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -303,8 +332,10 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
 }
 
 /**
@@ -320,8 +351,10 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -337,8 +370,10 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -354,8 +389,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -722,6 +759,7 @@ pre > code {
     display: none;
     visibility: hidden;
   }
+
   .header__links {
     position: static;
     padding: 0;
@@ -731,11 +769,13 @@ pre > code {
     width: auto;
     height: 100%;
   }
+
   .header__links-wrapper {
     display: flex;
     height: 100%;
     padding: 0;
   }
+
   .header__link {
     position: relative;
     padding: 0.938rem 1rem;
@@ -814,7 +854,7 @@ input[type=button] {
   text-transform: uppercase;
   white-space: nowrap;
   cursor: pointer;
-  color: #11cb14;
+  color: #fff;
   background-color: #222325;
   text-align: center;
   border: 0;
@@ -914,11 +954,11 @@ button:disabled :focus {
   position: relative;
   padding: 1.875rem 1.25rem 0.625rem;
   width: 100%;
-  color: #ff2626;
+  color: #838c8d;
   border-bottom: 0;
 }
 .post-card__inner:focus, .post-card__inner:hover {
-  color: #ff2626;
+  color: #838c8d;
   border-bottom: 0;
 }
 .post-card__header {
@@ -1136,7 +1176,7 @@ table {
   margin-bottom: 1.25rem;
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid #ededed; /* original is $border*/
+  border: 1px solid #ededed;
   border-radius: 4px;
   font-size: 14.5px;
 }
@@ -1146,7 +1186,7 @@ table th {
 table th,
 table td {
   padding: 6px 13px;
-  border: 1px solid #ededed; /* Original is border*/
+  border: 1px solid #ededed;
 }
 
 .highlight table td {
@@ -1446,25 +1486,18 @@ table td {
   display: block;
   content: "";
   top: 0;
-  left: 50%;
+  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(52, 56, 81, 0.8);
 }
 
 .hero--small {
-  margin: auto;
+  margin: 3.75rem auto 0;
   min-height: 8.75rem;
   width: 100%;
-  position: center;
+  position: relative;
   background-color: #313237;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: cover;
-  top: 50%;
-  center: 0;
-  transform: translate(-50%, -50%);
-  text-align: center;
 }
 @media only screen and (min-width: 62em) {
   .hero--small {
@@ -1472,11 +1505,11 @@ table td {
   }
 }
 .hero--small::before {
-  position: center;
+  position: absolute;
   display: block;
   content: "";
   top: 0;
-  center: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   background: rgba(52, 56, 81, 0.8);
@@ -1577,7 +1610,7 @@ table td {
 }
 .controls__item span {
   font-size: 0.875rem;
-  color: #ff2626;
+  color: #838c8d;
 }
 .controls__item a {
   color: #313237;
