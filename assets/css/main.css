@@ -918,6 +918,12 @@ button:disabled :focus {
   border-bottom: 0;
   transition: box-shadow 0.25s ease;
 }
+
+.post-card .home-card{
+  width: 250px;
+  height: 250px;
+  margin: 0px 10px 40px 10px;
+}
 .post-card:hover, .post-card:focus {
   border-bottom: 0;
   box-shadow: 0 2px 40px 0 hsla(232deg, 8%, 63%, 0.3);
