@@ -791,17 +791,17 @@ pre > code {
     height: 3px;
     width: 100%;
     transform: scaleX(0);
-    background: rgb(229, 5, 5);/*background: #277cea;*/
+    background: #277cea;
     transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
   }
   .header__link:hover {
-    color: rgb(9, 255, 0);/*color: #0f4c9c;*/
+    color: #0f4c9c;
   }
   .header__link:hover::after,
 .header__link :active::after,
 .header__link :focus::after {
     transform: scaleX(1);
-    color: rgb(9, 255, 0);/*color: #0f4c9c;*/
+    color: #0f4c9c;
     transition: transform 0.2s ease-in-out;
   }
 }
