@@ -9,7 +9,8 @@ favicon: 'assets/img/WEDesignLogo2022.png'
 baseurl: "" # the subpath of your site, e.g. /blog
 # old one is: ""
 url: "https://www.windenergydesign.com/" # the base hostname & protocol for your site, e.g. http://example.com
-# old one is: sciencesing.github.io
+# old one is: https://sciencesing.github.io/
+#Good one is: https://www.windenergydesign.com/
 
 # SEO PLUGIN
 
