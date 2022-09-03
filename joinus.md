@@ -6,7 +6,7 @@ driveId: 1IMn2X9iUNPh420PbOKZFLxISnDZkKMfA/preview
 featured-img: join_us
 ---
 
-{% include googleDrivePlayer.html id=page.driveId %}
+<!-- {% include googleDrivePlayer.html id=page.driveId %} -->
 
 Looking to be a part of an engineering team this year and make new friends? Come join our team, where you can learn and apply skills in hands-on experiences building and designing parts of a wind turbine. We'll have a blast!
 
