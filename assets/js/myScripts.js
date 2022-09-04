@@ -1,3 +1,8 @@
+window.jQuery = window.$ = require( "jquery" );
+require( "velocity-animate/velocity.js" );
+require( "lazysizes" );
+require( "lazysizes/plugins/unveilhooks/ls.unveilhooks.js" );
+
 $(document).ready(function () {
   $(window).on('load scroll', function () {
     var scrolled = $(this).scrollTop();
