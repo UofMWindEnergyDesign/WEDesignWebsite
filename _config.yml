@@ -32,7 +32,6 @@ navigation: # Navigation links
   - {name: 'Important Dates', link: '/importantdates'}
   - {name: 'Join Us', link: '/joinus'}
   - {name: 'Sponsors', link: '/sponsors'}
-  - {name: 'Hello', link: '/something'}
 
 tagline: >
   University of Manitoba's small scale wind turbine design team
