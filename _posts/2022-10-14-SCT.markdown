@@ -1,0 +1,8 @@
+---
+layout: post
+title:  SCT
+date:   2022-10-14 21:02:35 +0300
+featured-img: SCT_Logo
+sponsorlink: https://www.sctwelding.com/
+tags: sponsor platinum
+---
