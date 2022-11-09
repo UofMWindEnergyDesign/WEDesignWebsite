@@ -6,25 +6,24 @@ driveId: 1-a_2LFnuE-3-wqyE34I83dos3mb0bgof/preview
 featured-img: about_us
 ---
 
-# HEY THERE!
-Welcome to our website! It is so nice to have you here.
+# Hey from the WE Design Team!
+Welcome to our website! We are excited to share a little about us with you.
 
-WE Design is a University of Manitoba, student-operated organization comprised of undergraduate and graduate students from mechanical, civil, electrical, computer, and biosystems engineering. We aim to promote green energy, by providing an opportunity for our students to develop professional skills in the designing, manufacturing, and project management of our small-scale wind turbine. 
+WE Design is a student-operated organization comprised of undergraduate and graduate students from mechanical, civil, electrical, computer, and biosystems engineering from the University of Manitoba. Our aim is to promote and increase the use of green energy, by providing an opportunity for our students to develop professional skills in the designing, manufacturing, and project management of our small-scale wind turbine.
 
 <!-- <p></p>
 Below you can see one of our earlier prototypes being [//]: # tested out in the field!
 {% include googleDrivePlayer.html id=page.driveId %}
 <p></p> -->
 
-After successfully completing our second prototype, we took it to the Hanze University of Applied Sciences in Groningen, Netherlands, for the International Small Wind Turbine Contest (ISWTC) in July 2019. Being the only North American team to compete on this international stage, we seek to continually improve our design and hone our skills for a better team and for a better world.
+After the successful completion of our second prototype, the team showcased our design at the Hanze University of Applied Sciences in Groningen, Netherlands, for the International Small Wind Turbine Contest (ISWTC) in July 2019. At the time, we were the only North American team to compete on this international stage. Our principles drive us to seek a continual improvement to our design, allowing us to hone our skills for a constantly improving team and for a better world.
 
 
 #### This year, 
 our team will operate both on and off campus according to UofM COVID Guidelines in the Fall/Winter terms. 
-We are currently in Year 3 of our 3-Year design process and will be beginning our build cycle. This year, we will continue to focus on education and building a solid knowledge base for our new members. 
+We are currently in Year 3 of our 3-Year design process and will be beginning our build cycle. This year, we continue to focus on the education of our new members to be able to build a solid knowledge base.
 
-We will be competing in summer of 2023 International Small Wind Turbine Competition (ISWTC) with our new turbine prototype. We will be holding work sessions and tutorials on design, use of CAD software, composite manufacturing practices, and whatever else our members are interested in!
-
+We will be competing in summer of 2023 International Small Wind Turbine Competition (ISWTC) with our new turbine prototype. We will be holding work sessions and tutorials on design, the use of CAD software, composite manufacturing practices, and many other areas of interest for our members!
 
 
 ### FUN FACT
@@ -32,3 +31,8 @@ We will be competing in summer of 2023 International Small Wind Turbine Competit
 
 #### WE Design stands for Wind Energy Design, which *we* design! Get it?!
 ----------------------------------------------------------------------
+
+Thanks for visiting, please check out the other links in the header for more information.
+Need even more information? 
+[Contact]([contact.md]) us.
+
