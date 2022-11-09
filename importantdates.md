@@ -17,7 +17,7 @@ WE Design Weekly Meet **6pm in room E2-304 or on discord**.
 
 ## **Deadlines**
 
-Engineering Geoscientists Manitoba Renewal/Application for 2021-2022 **due October 19, 2022**.
+Engineering Geoscientists Manitoba Renewal/Application for 2022-2023 **due October 19, 2022**.
 
 Team [Membership form](https://forms.gle/shpFyYurkM1quY3K7 "2021-2022 WE Design Membership Form")  **due October 19, 2022**.
 
