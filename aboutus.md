@@ -34,5 +34,5 @@ We will be competing in summer of 2023 International Small Wind Turbine Competit
 
 Thanks for visiting, please check out the other links in the header for more information.
 Need even more information? 
-[Contact]([contact.md]) us.
+[Contact](https://www.windenergydesign.com/contact/) us.
 
