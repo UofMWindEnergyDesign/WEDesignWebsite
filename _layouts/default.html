@@ -45,6 +45,16 @@ layout: compress
 
             <!-- {% include pagination.html %} -->
           </div>
+          <div class="person-list" itemscope="" itemtype="http://schema.org/Blog">
+
+            {% for person in site.posts %}
+              {% if person.tags contains "homepage" %}
+                {% include homeCard.html %}
+              {% endif %}
+            {% endfor %}
+
+            <!-- {% include pagination.html %} -->
+          </div>
         </div>
 
       </section>
