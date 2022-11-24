@@ -1011,8 +1011,8 @@ button:disabled :focus {
 }
 
 .person-card .home-card{
-  width: 250px !important;
-  height: 250px !important;
+  width: 150px !important;
+  height: 150px !important;
   margin: 0px 10px 40px 10px !important;
   min-height: none !important;
 }
@@ -1096,7 +1096,7 @@ button:disabled :focus {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(9, 122, 230, 0.87);
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 100px;
   transition: all 0.2s ease;
