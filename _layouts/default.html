@@ -47,10 +47,10 @@ layout: compress
           </div>
           <div class="person-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            {% for person in site.posts %}
-              {% if person.tags contains "homepage" %}
+            {% for (let i = 0; i < elements.length; i++) %}
+              
                 {% include homeCard.html %}
-              {% endif %}
+              
             {% endfor %}
 
             <!-- {% include pagination.html %} -->
