@@ -1,7 +1,7 @@
 <div class="person-card home-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
 
-  < !--a href="{{ person.url | relative_url }}"-->  < !-- for link to website -->
-      {% if post.featured-img %}
+  
+      
       <figure class="person-card__thumb">
         <img
           src="/assets/img/posts/2016team.JPG"
@@ -11,11 +11,7 @@
         />
         <noscript><img src="/assets/img/posts/2016team.JPG" alt="{{ person.title }}"></noscript>
       </figure>
-    {% else %}
-      <figure class="person-card__thumb">
-        <div class="dark-bg"></div>
-      </figure>
-    {% endif %}
+   
   </a>
   <a class="person-card__inner" href="{{ person.url | relative_url }}">
     <div class="person-card__header">
