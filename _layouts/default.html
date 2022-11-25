@@ -48,9 +48,9 @@ layout: compress
           </div>
           <div class="person-list" itemscope="" itemtype="http://schema.org/Blog">
 
-            
+            {% for post in site.posts %}
               <img title="Test Image" alt="Test Text" src="https://github.com/isaacmatt/WEDesignWebsite/blob/gh-pages/assets/img/WEDesignLogo2022.png">
-              
+            {% endfor %} 
               
 
             <!-- {% include pagination.html %} -->
