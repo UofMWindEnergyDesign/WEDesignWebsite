@@ -1,7 +1,7 @@
 <div class="person-card home-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
 
   < !--a href="{{ person.url | relative_url }}"-->  < !-- for link to website -->
-    
+      {% if post.featured-img %}
       <figure class="person-card__thumb">
         <img
           src="/assets/img/posts/2016team.JPG"
