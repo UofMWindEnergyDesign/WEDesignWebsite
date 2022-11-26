@@ -15,15 +15,30 @@ html {
 
 .column {
   float: left;
-  width: 30.5%;
+  width: 30.0%;
   margin-bottom: 16px;
-  padding: 0 10px;
+  padding: 0 0px;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
+@media only screen and (min-width: 48em) {
+  .person-card {
+    width: 48.4375%;
+    margin-right: 3.125%;
+  }
+  .person-card:last-of-type, .person-card:nth-child(2n+2) {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .person-card {
+    width: 31.25%;
+    margin-right: 3.125%;
+  }
+  .person-card:nth-child(2n+2) {
+    margin-right: 3.125%;
+  }
+  .person-card:last-of-type, .person-card:nth-child(3n+3) {
+    margin-right: 0;
   }
 }
 
