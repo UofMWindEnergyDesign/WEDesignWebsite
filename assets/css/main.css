@@ -601,6 +601,12 @@ pre > code {
   visibility: hidden;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   padding: 0 20px;
   margin: 0 auto;
