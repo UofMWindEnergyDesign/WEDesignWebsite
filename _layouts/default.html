@@ -52,7 +52,7 @@ layout: compress
           </div>
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog"
             {% for post in site.posts %}
-              {% if post.tags contains "teamlead" or post.tags contains "sectionlead" %}
+              {% if post.tags contains "teamlead"%}
                 {% include personCard.html %}
               {% endif %}
             {% endfor %}    
