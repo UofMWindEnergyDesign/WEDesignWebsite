@@ -46,16 +46,13 @@ layout: compress
             
             <!-- {% include pagination.html %} -->
           </div>
-          </div>
-         <div class="container">
-          <div class="person-list" itemscope="" itemtype="http://schema.org/Blog">
-
-                        
-                <!-- {% include personLayoutCard.html %} -->
-              
-              
-
-            <!-- {% include pagination.html %} -->
+          <h1>Our Leadership Team!</h1>
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog"
+            {% for post in site.posts %}
+              {% if post.tags contains "teamlead" or post.tags contains "sectionlead" %}
+                {% include personCard.html %}
+              {% endif %}
+            {% endfor %}    
           </div>
         </div>
 
