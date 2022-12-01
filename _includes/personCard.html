@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -151,4 +151,29 @@ p {
 
 </body>
 </html>
+-->
 
+<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+  {% if post.featured-img %}
+
+    <figure class="{{sponsorType}} post-card__thumb">
+
+      <img
+        src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.featured-img}}_placehold.jpg"
+        data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.featured-img}}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.featured-img}}_thumb@2x.jpg 2x"
+        class="lazyload blur"
+        alt="{{post.title}}"
+      />
+    </figure>
+  {% else %}
+    <figure class="post-card__thumb">
+      <div class="dark-bg"></div>
+    </figure>
+  {% endif %}
+  <div class="post-card__inner">
+    <div class="post-card__header">
+      <h2>{{post.title}}</h2>
+      <p class="title">{{post.position}}</p>
+    </div>
+  </div>
+</div>
