@@ -158,12 +158,18 @@ p {
 
     <figure class="{{sponsorType}} post-card__thumb">
 
-      <img
-        src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.featured-img}}_placehold.jpg"
-        data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.featured-img}}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.featured-img}}_thumb@2x.jpg 2x"
+      <!-- <img
+        src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.headshot}}_placehold.jpg"
+        data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.headshot}}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.headshot}}_thumb@2x.jpg 2x"
         class="lazyload blur"
-        alt="{{post.title}}"
-      />
+        alt="{{post.name}}"
+      /> -->
+      
+      <img
+         src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/teamHeadshots/{{post.headshot}}"
+         class="lazyload blur"
+         alt="{{post.name}}"
+       />
     </figure>
   {% else %}
     <figure class="post-card__thumb">
@@ -172,7 +178,7 @@ p {
   {% endif %}
   <div class="post-card__inner">
     <div class="post-card__header">
-      <h2>{{post.title}}</h2>
+      <h2>{{post.name}}</h2>
       <p class="title">{{post.position}}</p>
     </div>
   </div>
