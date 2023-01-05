@@ -9,10 +9,18 @@ featured-img: important_dates
 
 
 ## **Upcoming Events**
-YFOE Professional Development Fair **November 28,2022 at 6pm in the EITC Atrium**
+- Team Picture Day **January 18, 2023 (Exact time and location coming soon)**
+- HAWT Internal Design Review **January 26, 2023 @ 6pm (Location coming soon)**
+- HAWT External Design Review **January 30 - February 3, 2023 (Exact date and location coming soon)**
+- Election Positions Annoucments for Upcoming Year **February 13 - 17, 2023**
+- Nominations for WEDesign Presedential Elections **March 1 - 3, 2023**
+- Voting on Presedential Candidates **March 5 - 6, 2023, Election Winner Announced March 6**
+- Nominations for WEDesign Executive Elections **March 8 - 10, 2023**
+- Voting on Executive Candidates **March 12 - 13, 2023, Election Winner Announced March 13**
+- ISWTC **May 29 - June 2, 2023 (Tentitive dates, will be updated once information is available)**
 
 ## **Weekly Events**
-WE Design Weekly Meet **6pm in room E2-304 or on discord**.
+WE Design Weekly Meet **Thursdays @ 6pm in room E2-304 or on discord**.
 
 
 ## **Deadlines**
