@@ -44,8 +44,11 @@
  {% if post.tags contains "platinum" %}
      {%assign sponsorType = "large"%}
  {% endif %}
- {% if post.tags contains "gold" %}
+ {% if post.tags contains "software" %}
      {%assign sponsorType = "large"%}
+ {% endif %}
+ {% if post.tags contains "gold" %}
+     {%assign sponsorType = "medium"%}
  {% endif %}
  {% if post.tags contains "silver" %}
      {%assign sponsorType = "medium"%}
