@@ -60,6 +60,9 @@ layout: compress
                   <span style="color:goldenrod">Gold $1,000+</span>
                 </th>
                 <th class="newBorder" style="text-align: center">
+                  <span style="color:rgb(35, 155, 86)">Software </span>
+                </th>
+                <th class="newBorder" style="text-align: center">
                   <span style="color:lightslategray">Platinum $3,000+</span>
                 </th>
                 <th class="newBorder" style="text-align: center">
@@ -140,6 +143,25 @@ layout: compress
 
               {% for post in site.posts %}
                 {% if post.tags contains "sponsor" and post.tags contains "platinum" %}
+                  {% include sponsCard.html %}
+                {% endif %}
+              {% endfor %}
+
+              <!-- {% include pagination.html %} -->
+            </div>
+          </div>
+        
+             <!-- Software Sponsors -->
+      <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
+          Platinum <!--Padding is optional-->
+        </span>
+      </div>
+        <div class="container">
+            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+              {% for post in site.posts %}
+                {% if post.tags contains "sponsor" and post.tags contains "software" %}
                   {% include sponsCard.html %}
                 {% endif %}
               {% endfor %}
