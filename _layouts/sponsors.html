@@ -155,26 +155,6 @@ layout: compress
             </div>
           </div>
         
-             <!-- Software Sponsors -->
-      <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
-        <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
-          Software <!--Padding is optional-->
-        </span>
-      </div>
-        <div class="container">
-            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-
-              {% for post in site.posts %}
-                {% if post.tags contains "sponsor" and post.tags contains "software" %}
-                  {% include sponsCard.html %}
-                {% endif %}
-              {% endfor %}
-
-              <!-- {% include pagination.html %} -->
-            </div>
-          </div>
-        
-        
         <!-- Gold Sponsors-->
         <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
         <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
@@ -228,6 +208,25 @@ layout: compress
                   {% unless post.tags contains "platinumplus" or post.tags contains "platinum" or post.tags contains "gold" or post.tags contains "silver" %}
                     {% include sponsCard.html %}
                   {% endunless %}
+                {% endif %}
+              {% endfor %}
+
+              <!-- {% include pagination.html %} -->
+            </div>
+          </div>
+        
+                     <!-- Software Sponsors -->
+      <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #f9f9f9; padding: 0 10px;">
+          Software <!--Padding is optional-->
+        </span>
+      </div>
+        <div class="container">
+            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+              {% for post in site.posts %}
+                {% if post.tags contains "sponsor" and post.tags contains "software" %}
+                  {% include sponsCard.html %}
                 {% endif %}
               {% endfor %}
 
