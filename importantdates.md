@@ -9,7 +9,7 @@ featured-img: important_dates
 
 
 ## **Upcoming Events**
-- ENG-O **Tuesday, September 3rd in E2-229 from 11:00 AM-2:00 PM
+- ENG-O **Tuesday, September 3rd in E2-229 from 11:00 AM-2:00 PM**
 - ISWTC **Summer, 2025 (Tentitive dates, will be updated once information is available)**
 
 ## **Weekly Events**
