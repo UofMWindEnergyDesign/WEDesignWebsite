@@ -9,27 +9,21 @@ featured-img: important_dates
 
 
 ## **Upcoming Events**
-- Team Picture Day **January 18, 2023 (Exact time and location coming soon)**
-- HAWT Internal Design Review **January 26, 2023 @ 6pm (Location coming soon)**
-- HAWT External Design Review **January 30 - February 3, 2023 (Exact date and location coming soon)**
-- Election Positions Annoucments for Upcoming Year **February 13 - 17, 2023**
-- Nominations for WEDesign Presedential Elections **March 1 - 3, 2023**
-- Voting on Presedential Candidates **March 5 - 6, 2023, Election Winner Announced March 6**
-- Nominations for WEDesign Executive Elections **March 8 - 10, 2023**
-- Voting on Executive Candidates **March 12 - 13, 2023, Election Winner Announced March 13**
-- ISWTC **May 29 - June 2, 2023 (Tentitive dates, will be updated once information is available)**
+-ENG-O **Tuesday, September 3rd in E2-229 from 11:00 AM-2:00 PM
+- ISWTC **Summer, 2025 (Tentitive dates, will be updated once information is available)**
 
 ## **Weekly Events**
-WE Design Weekly Meet **Thursdays @ 6pm in room E2-304 or on discord**.
+-WE Design Weekly Meet **Date to be determined**.
+-WE Design Workshop Hours **Date to be determined** (Previously Saturdays 10:00AM to 1:00PM)
 
 
 ## **Deadlines**
 
-Engineering Geoscientists Manitoba Renewal/Application for 2022-2023 **due October 19, 2022**.
+Engineering Geoscientists Manitoba Renewal/Application for 2024-2025 **due October 19, 2024**.
 
-Team [Membership form](https://forms.gle/shpFyYurkM1quY3K7 "2021-2022 WE Design Membership Form")  **due October 19, 2022**.
+Team [Membership form](https://forms.gle/shpFyYurkM1quY3K7 "2021-2022 WE Design Membership Form")  **due October 19, 2024**.
 
-Team Membership Fee **due October 19, 2022**.**
+Team Membership Fee **due October 19, 2024**.**
 
  ** This year's membership fee is 20$ which provides the student with a student key for SolidWorks, Altium, and other required softwares used by the team. 
 The membership fee must be paid by October 19th to be in good standing, but recruits can participate in club activities prior to committing to the team for the year. 
