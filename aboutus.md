@@ -20,10 +20,10 @@ After the successful completion of our second prototype, the team showcased our 
 
 
 #### This year, 
-our team will operate both on and off campus according to UofM COVID Guidelines in the Fall/Winter terms. 
-We are currently in Year 3 of our 3-Year design process and will be beginning our build cycle. This year, we continue to focus on the education of our new members to be able to build a solid knowledge base.
+our team will operate both on and off campus in the Fall/Winter terms. 
+We are currently in Year 4 of our 4-Year design process and will be beginning our build cycle. This year, we continue to focus on the education of our new members to be able to build a solid knowledge base.
 
-We will be competing in summer of 2023 International Small Wind Turbine Competition (ISWTC) with our new turbine prototype. We will be holding work sessions and tutorials on design, the use of CAD software, composite manufacturing practices, and many other areas of interest for our members!
+We will be competing in summer of 2025 International Small Wind Turbine Competition (ISWTC) with our new turbine prototype. We will be holding work sessions and tutorials on design, the use of CAD software, composite manufacturing practices, and many other areas of interest for our members!
 
 
 ### FUN FACT
