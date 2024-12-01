@@ -36,3 +36,24 @@ Thanks for visiting, please check out the other links in the header for more inf
 Need even more information? 
 [Contact](https://www.windenergydesign.com/contact/) us.
 
+*Team shirts are required* for participation in competition events (virtual or in-person). 
+For members wanting a shirt, the cost is 30$. An order will be organized towards the beginning of the winter term. 
+For payments please email *contact@windenergydesign.com* with the 20$ registration fee.
+
+The [International Small Wind Turbine Competition (ISWTC)](https://www.hanze.nl/eng/education/engineering/school-of-engineering/organisation/contest/international-small-wind-turbine-contest/contest/iswtc/iswtc-history) occurs in the **Summer of 2025**
+
+
+
+|![]({{ site.url }}{{ site.baseurl }}/assets/img/posts/ISWTC_1.jpg)|![]({{ site.url }}{{ site.baseurl }}/assets/img/posts/ISWTC_2.jpg)|
+|----|---|
+|Presenting our mini wind turbine at the ISWTC (summer 2019).   |Setting up our turbine at competition (summer 2019).|
+![]({{ site.url }}{{ site.baseurl }}/assets/img/posts/ISWTC_3.jpg)|![]({{ site.url }}{{ site.baseurl }}/assets/img/posts/ISWTC_4.jpg)
+|Monitoring our turbine's data while competing (summer 2019).|Our wind turbine set up for competition in the ISWTC wind tunnel (summer 2019).|
+
+  
+<p align="center">
+  <img src="{{site.url}}{{site.baseurl}}/assets/img/posts/ISWTC(2020).jpg">
+</p>
+<p align="center">
+Attending the ISWTC online (summer 2020).
+</p>
